@@ -12,12 +12,11 @@ object Soundex {
     for ((digit, chars) <- codes; char <- chars) yield (char -> digit)
     
 
-  def encode(word: String): String = {
+  def encode(word: String): String = 
     word.toLowerCase.head +:  word.toLowerCase.drop(1)
 				              .filterNot(exclusions)
 					      .map(charCode)
 					      .foldRight[List[Char]](Nil)((x, acc) => if (!acc.isEmpty && x == acc.head) acc else (x +: acc)).mkString
 					      .padTo(cutOff, '0')
 					      .take(cutOff)
-  }
 }
