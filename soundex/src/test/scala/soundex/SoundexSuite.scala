@@ -1,0 +1,5 @@
+package soundex
+
+class SoundexSuite {
+
+}

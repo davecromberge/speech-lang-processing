@@ -16,4 +16,5 @@ project/boot
 project/target
 project/plugins/target
 .metadata
+.class
 *.class

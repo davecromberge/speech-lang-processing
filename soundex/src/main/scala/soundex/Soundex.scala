@@ -16,7 +16,8 @@ object Soundex {
     word.toLowerCase.head +:  word.toLowerCase.drop(1)
 				              .filterNot(exclusions)
 					      .map(charCode)
-					      .foldRight[List[Char]](Nil)((x, acc) => if (!acc.isEmpty && x == acc.head) acc else (x +: acc)).mkString
+					      .foldRight[List[Char]](Nil)((x, acc) => 
+					        if (!acc.isEmpty && x == acc.head) acc else (x +: acc)).mkString
 					      .padTo(cutOff, '0')
 					      .take(cutOff)
 }

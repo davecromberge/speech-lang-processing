@@ -1,0 +1,5 @@
+package ngrams
+
+class NGramsSuite {
+
+}
