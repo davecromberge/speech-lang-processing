@@ -1,0 +1,36 @@
+
+ Soundex codes for Moskowitz, Moskovitz, Moskowvitz:
+
+Moskowitz -> m232
+Moskovitz -> m213
+Moskowvitz -> m213
+Not all similar
+
+ Soundex codes for Levine, Lewin, Leewin:
+
+Levine -> l150
+Lewin -> l500
+Leewin -> l500
+Not all similar
+
+ Soundex codes for Ashcraft, Ashcroft, Ashcropht:
+
+Ashcraft -> a261
+Ashcroft -> a261
+Ashcropht -> a261
+All are similar
+
+ Soundex codes for Jackson, Jakson, Jacksun:
+
+Jackson -> j250
+Jakson -> j250
+Jacksun -> j250
+All are similar
+
+ Soundex codes for Russel, Russell, Rustle:
+
+Russel -> r240
+Russell -> r240
+Rustle -> r234
+Not all similar
+
