@@ -5,15 +5,15 @@ object Application {
   val newLine: String = sys.props("line.separator")
   
   def main(args: Array[String]) {
-    /*if (args.isEmpty) {
+    if (args.isEmpty) {
       println("Please supply a file path to a list of surnames.")
       System.exit(0)
-    }*/
+    }
     
     val results =
-      readFile("/home/dave/Development/speech-language-processing/soundex/surnames.txt").toSeq
-      					 .map(line => line.split(" ")
-       					 				  .map(surname => (surname, Soundex.encode(surname))))
+      readFile(args.head).toSeq
+      					 .map(_.split(" ")
+       					 	   .map(surname => (surname, Soundex.encode(surname))))
        					 				
     printResults(results)
        					 				  					 				  
