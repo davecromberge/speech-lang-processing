@@ -1,6 +1,6 @@
 package soundex
 
-object Application {
+object SoundexApp {
 
   val newLine: String = sys.props("line.separator")
   
